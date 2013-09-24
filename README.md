@@ -1,6 +1,6 @@
 # Cerebro
 
-A tool to run CLA models and visually examine the output of the Spatial Pooler. [Click here for a video introduction and tutorial](http://youtu.be/WQWU1K5tE5o).
+A tool for [NuPIC](http://github.com/numenta/nupic) to run CLA models and visually examine the output of the Spatial Pooler. [Click here for a video introduction and tutorial](http://youtu.be/WQWU1K5tE5o).
 
 ## What is Cerebro?
 
@@ -13,11 +13,20 @@ A tool to run CLA models and visually examine the output of the Spatial Pooler. 
 
 ## How do I use it?
 
+To install (with [Homebrew for Mac OS X](http://brew.sh/)):
+
+    brew install libevent
+    brew install mongodb
+    pip install -r requirements.txt
+
 To launch:
+
+    mongod &
     python cerebro.py <portnum>
 
 In a browser, navigate to:
-    localhost:<portnum>
+
+    http://localhost:<portnum>
 
 ## Datasets
 
@@ -52,5 +61,5 @@ In a browser, navigate to:
 - If present, also shows anomaly score graph
 - On right, shows predicted and active columns
 - Shows encoder representations on the bottom
-- At the very bottom, shows a whole bunch of textual output. 
+- At the very bottom, shows a whole bunch of textual output.
 - Verbose output: captures everything from stdout while CLA processes a single record
