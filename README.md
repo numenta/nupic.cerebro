@@ -28,6 +28,15 @@ In a browser, navigate to:
 
     http://localhost:<portnum>
 
+To build the docker image:
+
+    sudo docker build -t="nupic.cerebro" .
+
+To run the docker image:
+
+    sudo docker run -p=1955:<portnum> <image name> 
+
+
 ## Datasets
 
 ### File based
