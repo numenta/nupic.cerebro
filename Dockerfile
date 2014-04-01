@@ -1,4 +1,4 @@
-FROM allanino/nupic
+FROM numenta/nupic
 
 MAINTAINER Zac Gross <zacgross@gmail.com>
 
