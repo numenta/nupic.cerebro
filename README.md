@@ -1,3 +1,6 @@
+> # THIS REPOSITORY IS DEPRECATED.
+> # Use https://github.com/numenta/nupic.cerebro2.
+
 # Cerebro
 
 A tool for [NuPIC](http://github.com/numenta/nupic) to run CLA models and visually examine the output of the Spatial Pooler. [Click here for a video introduction and tutorial](http://youtu.be/WQWU1K5tE5o).
